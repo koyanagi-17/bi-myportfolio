@@ -26,6 +26,18 @@ BigQueryから取得した広告データをもとに、商材別の成果指標
 
 ---
 
+## スプレッドシート構成
+
+- `00_INDEX`: 商材別レポートや月別集計タブにすぐアクセスできるリンク集。利用者が目的のシートへスムーズに移動できるよう設計しています。
+- `01_DATA_FILTERED`: BigQueryから取得した全データの集約シートから、特定の商材データを自動抽出・集計（`IMPORTRANGE`・`QUERY`・`ARRAYFORMULA`等を使用）。
+- `02_MONTHLY_SUMMARY`: 各商材レポートシート（後述）から成果指標（CPA/CVRなど）を月別に集計。全体の進捗や傾向を俯瞰できます。
+- `2024-01_A_Report`: 商材Aの広告レポート。日次・週次の成果指標（IMP、CTR、CV等）を自動で記録・可視化。
+- `2024-01_B_Report`: 商材Bの広告レポート。日次・週次の成果指標（IMP、CTR、CV等）を自動で記録・可視化。
+
+※ 商材別レポートシートは「YYYY-MM_商材名_Report」の形式で命名し、月次の運用・管理のしやすさを重視しています。
+
+---
+
 ## 使用技術
 - Google スプレッドシート（QUERY, XLOOKUP, ARRAYFORMULA など）
 - Google Apps Script（GAS）
@@ -55,5 +67,5 @@ BigQueryから取得した広告データをもとに、商材別の成果指標
 ---
 
 ## 📎 実際のシート
-👉 [広告レポート自動集計スプレッドシート（閲覧用）](https://docs.google.com/spreadsheets/d/1d1GF3-Cb-T35ocooElEliWLSJrUc1L1500kz25qQSRg/edit?usp=sharing)
+👉 [広告レポート自動集計スプレッドシート（閲覧用）](https://docs.google.com/spreadsheets/d/XXXXXXXXXXX)
 
