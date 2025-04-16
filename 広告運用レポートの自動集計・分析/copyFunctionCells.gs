@@ -1,6 +1,6 @@
 function copyFunctionCells() {
   var ss = SpreadsheetApp.getActiveSpreadsheet();
-  var sheet = ss.getSheetByName("合計_媒体別");
+  var sheet = ss.getSheetByName("02_MONTHLY_SUMMARY");
   var range = sheet.getRange("H16:381");
   var formulas = range.getFormulas();
 
