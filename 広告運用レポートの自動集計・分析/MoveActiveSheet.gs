@@ -1,6 +1,6 @@
 function MoveActiveSheet() {
   var ss = SpreadsheetApp.getActiveSpreadsheet();
-  var mgws = ss.getSheetByName("index");
+  var mgws = ss.getSheetByName("00_INDEX");
   var manageData = mgws.getRange("B1:B").getValues().filter(line => line[0] != "");
   var sheets = ss.getSheets();
   var sheetnames = sheets.map(sheet => {
