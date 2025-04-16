@@ -1,6 +1,6 @@
 function getSheetName() { 
   var ss = SpreadsheetApp.getActiveSpreadsheet();
-  var outputSheet = ss.getSheetByName("index");
+  var outputSheet = ss.getSheetByName("00_INDEX");
   var url = ss.getUrl();
   var sheets = ss.getSheets();
   var links = [];
@@ -9,7 +9,7 @@ function getSheetName() {
     var sheet = sheets[i];
     var name = sheet.getName();
 
-    if (name !== "index") {
+    if (name !== "00_INDEX") {
       var id = sheet.getSheetId();
       var sheetUrl = url + "#gid=" + id;
       var link = '=HYPERLINK("' + sheetUrl + '","' + name + '")';
