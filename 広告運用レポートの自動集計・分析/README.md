@@ -80,9 +80,3 @@ BigQueryから取得した広告データを商材別に自動集計し、
 ## 📎 実際のスプレッドシート  
 こちらから閲覧いただけます → [広告レポート自動集計スプレッドシート（閲覧用）]([https://docs.google.com/spreadsheets/d/XXXXXXXXXXX](https://docs.google.com/spreadsheets/d/1d1GF3-Cb-T35ocooElEliWLSJrUc1L1500kz25qQSRg/edit?gid=644686713#gid=644686713))
 
----
-
-## 🗂 その他の関連プロジェクト例（別リポジトリ予定）
-- Googleドライブ内のファイルを一覧化し、SmartNews広告用のCSV＋zipを自動生成
-- 入稿用テンプレート生成ツール（商材別・媒体別に対応）
-- 名刺画像のOCR読み取り＆顧客台帳への自動反映ツール　など
