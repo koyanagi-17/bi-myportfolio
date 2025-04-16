@@ -66,6 +66,6 @@ BigQueryから取得した広告データをもとに、商材別の成果指標
 
 ---
 
-## 📎 実際のシート
-👉 [広告レポート自動集計スプレッドシート（閲覧用）](https://docs.google.com/spreadsheets/d/XXXXXXXXXXX)
+## 実際のシート
+ [広告レポート自動集計スプレッドシート（閲覧用）](https://docs.google.com/spreadsheets/d/XXXXXXXXXXX)
 
