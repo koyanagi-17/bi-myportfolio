@@ -1,7 +1,7 @@
 function exportCsvAndJpg() {
   var ss = SpreadsheetApp.getActiveSpreadsheet();
-  var sheetA = ss.getSheetByName("sn_output");
-  var sheetB = ss.getSheetByName("バナーフォルダ一覧");
+  var sheetA = ss.getSheetByName("07_SN_OUTPUT");
+  var sheetB = ss.getSheetByName("01_BANNER_FOLDER_LIST");
 
   var folderId = getFolderIdFromSheet(sheetB, 'SmartNews広告');
   if (!folderId) {
