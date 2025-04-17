@@ -1,6 +1,6 @@
 function GetFileList(){
   var spreadsheet = SpreadsheetApp.getActiveSpreadsheet();
-  var drive_ss = spreadsheet.getSheetByName("バナーフォルダ一覧");
+  var drive_ss = spreadsheet.getSheetByName("01_BANNER_FOLDER_LIST");
   listFoldersInParentFolder(drive_ss);
   GetSheetList(drive_ss);
 };
@@ -40,9 +40,12 @@ function GetSheetList(drive_ss){
     }
   }
   var ssurl = [];
+  
+  /*
   var ssurl = list.filter(function(url){
     return url[0].indexOf("CR一覧") != -1;
   });
+  */
 
   var afterArray = ssurl.map(function(x){
     return x.splice(1, 1);
