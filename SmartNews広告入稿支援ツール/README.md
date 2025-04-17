@@ -83,23 +83,33 @@
 --
 
 ## データフロー図（テキスト版）
-[Googleドライブ画像フォルダ]
-        ↓
-[01_BANNER_FOLDER_LIST]
-        ↓ GASでファイル取得
-[02_BANNER_LIST]
-        ↓ 関数で抽出
-[04_SN_BANNER]
-        ↓
-[03_LP_LIST] ＋ [05_SN_TEXT]
-（記事LP・広告文を入力）
-        ↓ 関数で組み合わせ
-[06_SN_INPUT]
-（入稿パターンを作成）
-        ↓ 関数で処理
-[07_SN_OUTPUT]
-        ↓ GASで処理
-[CSV出力 + 画像zip化]
+[Googleドライブ画像フォルダ]  
+        ↓  
+[01_BANNER_FOLDER_LIST]  
+        └─▶ GASでフォルダ情報を取得（GetFileList.gs）  
+
+        ↓  
+[02_BANNER_LIST]  
+        └─▶ GASで画像・動画ファイル情報を取得（GetBannerList.gs）  
+
+        ↓  
+[04_SN_BANNER]  
+        └─▶ 関数でSmartNews広告用バナーを抽出  
+
+[03_LP_LIST]（記事LP） ＋ [05_SN_TEXT]（広告文）  
+        └─▶ 手入力  
+
+        ↓  
+[06_SN_INPUT]  
+        └─▶ 関数でバナー・記事LP・広告文を組み合わせてパターン作成  
+
+        ↓  
+[07_SN_OUTPUT]  
+        └─▶ GASでCSV出力＋バナー画像のzip化（exportCsvAndJpg.gs）  
+
+        ↓  
+[CSVファイル出力 + zipダウンロードURL生成]
+
 
 ---
 
