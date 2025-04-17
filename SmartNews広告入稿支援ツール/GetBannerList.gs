@@ -1,7 +1,7 @@
 function GetBannerList() {
   var ss = SpreadsheetApp.getActiveSpreadsheet();
-  var drive_ss = ss.getSheetByName("バナーフォルダ一覧");
-  var banner_ss = ss.getSheetByName("banner_list");
+  var drive_ss = ss.getSheetByName("01_BANNER_FOLDER_LIST");
+  var banner_ss = ss.getSheetByName("02_BANNER_LIST");
   var driveurl_List = drive_ss.getRange("A1:C").getValues().filter(function(row) {
     return row[0] != "";
   });
@@ -43,7 +43,8 @@ function GetBannerList() {
       return e[4].toString() == f[0].toString();
     }).length == 0;
   }).filter(function(value) {
-    return (value[2].indexOf("CR一覧") == -1);
+    return (value[2].indexOf("CR一覧") == -1) &&
+           (value[2].toLowerCase().indexOf(".zip") == -1);
   });
 
   for (var i in res) {
