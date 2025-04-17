@@ -113,5 +113,5 @@
 ----
 
 ## 実際のスプレッドシート  
-こちらから閲覧いただけます → [広告レポート自動集計スプレッドシート（閲覧用）](https://docs.google.com/spreadsheets/d/1IgRgQu9y_3dHcsPGsxs1hUvc8_We5CCQus3Ji-sSiPk/edit?gid=968352328#gid=968352328)
+こちらから閲覧いただけます → [SmartNews広告 入稿CSV自動生成ツール（閲覧用）](https://docs.google.com/spreadsheets/d/1IgRgQu9y_3dHcsPGsxs1hUvc8_We5CCQus3Ji-sSiPk/edit?gid=968352328#gid=968352328)
 
