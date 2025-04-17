@@ -78,5 +78,5 @@ BigQueryから取得した広告データを商材別に自動集計し、
 ---
 
 ## 実際のスプレッドシート  
-こちらから閲覧いただけます → [広告レポート自動集計スプレッドシート（閲覧用）]([https://docs.google.com/spreadsheets/d/XXXXXXXXXXX](https://docs.google.com/spreadsheets/d/1d1GF3-Cb-T35ocooElEliWLSJrUc1L1500kz25qQSRg/edit?gid=644686713#gid=644686713))
+こちらから閲覧いただけます → [広告レポート自動集計スプレッドシート（閲覧用）](https://docs.google.com/spreadsheets/d/1d1GF3-Cb-T35ocooElEliWLSJrUc1L1500kz25qQSRg/edit?gid=644686713#gid=644686713)
 
