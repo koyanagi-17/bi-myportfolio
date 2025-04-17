@@ -1,6 +1,6 @@
 function deleteZipFile() {
   var spreadsheet = SpreadsheetApp.getActiveSpreadsheet();
-  var sheet = spreadsheet.getSheetByName('バナーフォルダ一覧');
+  var sheet = spreadsheet.getSheetByName('01_BANNER_FOLDER_LIST');
 
   var data = sheet.getDataRange().getValues();
   var folderUrl = '';
