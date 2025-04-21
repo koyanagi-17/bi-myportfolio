@@ -23,7 +23,7 @@ BigQuery やスプレッドシートに格納された広告データをもと�
 
 ## スプレッドシート構成
 
-| シート名              | 内容                                     |
+| シート名 | 内容 |
 |----------------------|------------------------------------------|
 | `campaign_report`     | BigQueryから取得した自動連携データ（日別） |
 | `manual_input_sample` | 手入力による補足データ（売上・粗利など）     |
@@ -32,11 +32,11 @@ BigQuery やスプレッドシートに格納された広告データをもと�
 ---
 
 ## 使用技術
-- BigQuery（スプレッドシートのデータコネクタ経由）
-- Google スプレッドシート
-- Google Apps Script（GAS）
+- **BigQuery（スプレッドシートのデータコネクタ経由）**
+- **Google スプレッドシート**
+- **Google Apps Script（GAS）**
   - ChatGPTでのコード補助あり
-- Google Looker Studio
+- **Google Looker Studio**
 
 ---
 
@@ -57,7 +57,7 @@ BigQuery やスプレッドシートに格納された広告データをもと�
 
 ## ファイル構成（GASスクリプト）
 
-| ファイル名              | 内容                                     |
+| ファイル名 | 内容 |
 |----------------------|------------------------------------------|
 | `mergeCampaignDataFromURLs.gs` | データ統合処理（campaign_report + manual_input_sample を統合し、Looker Studio 連携用に整形） |
 
