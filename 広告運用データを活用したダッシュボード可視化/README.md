@@ -35,7 +35,7 @@ BigQuery やスプレッドシートに格納された広告データをもと�
 - BigQuery（スプレッドシートのデータコネクタ経由）
 - Google スプレッドシート
 - Google Apps Script（GAS）
-  -ChatGPTでのコード補助あり
+  - ChatGPTでのコード補助あり
 - Google Looker Studio
 
 ---
