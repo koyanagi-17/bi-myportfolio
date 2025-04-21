@@ -47,8 +47,9 @@ BigQuery やスプレッドシートに格納された広告データをもと�
 
 ## ファイル構成（GASスクリプト）
 
-- `mergeCampaignDataFromURLs.gs`  
-  データ統合処理（campaign_report + manual_input_sample を統合し、Looker Studio 連携用に整形）
+| シート名              | 内容                                     |
+|----------------------|------------------------------------------|
+| `mergeCampaignDataFromURLs.gs` | データ統合処理（campaign_report + manual_input_sample を統合し、Looker Studio 連携用に整形） |
 
 ## 実際のスプレッドシート・ダッシュボードリンク
 
