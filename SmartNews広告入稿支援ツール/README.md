@@ -80,7 +80,7 @@
 | `exportCsvAndJpg.gs` | 07_SN_OUTPUTの内容をCSVとして出力、バナーファイルをzip化しダウンロードリンクを生成 |
 | `deleteZipFile.gs` | フォルダ内に保管されているzipファイルを削除 |
 
---
+---
 
 ### データ処理の流れ
 
