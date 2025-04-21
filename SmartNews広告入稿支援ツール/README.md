@@ -82,23 +82,14 @@
 
 --
 
-## データフロー図（テキスト版）
+### データ処理の流れ
 
-- [**Googleドライブ画像フォルダ**]
-   ↓
-- [01_BANNER_FOLDER_LIST]
-   └ GASでフォルダ情報を取得（ `GetFileList.gs` ）
-- 02_BANNER_LIST
-   └ GASで画像・動画ファイル情報を取得（ `GetBannerList.gs` ）
-- 04_SN_BANNER
-   └ 関数でSmartNews広告用バナーを抽出
-- 03_LP_LIST（記事LP）＋ 05_SN_TEXT（広告文）
-   └ 手入力
-- 06_SN_INPUT
-   └ 関数でバナー・記事LP・広告文を組み合わせてパターン作成
-- 07_SN_OUTPUT
-   └ GASでCSV出力＋バナー画像のzip化（ `exportCsvAndJpg.gs` ）
-- **CSVファイル出力 + zipダウンロードURL生成**
+1. Googleドライブにある広告画像フォルダのパスをスプレッドシート `01_BANNER_FOLDER_LIST` に入力
+2. GAS（`GetFileList.gs`）を実行し、各フォルダ内のファイル情報を `02_BANNER_LIST` に取得・出力
+3. スプレッドシート関数でSmartNews広告用バナーのみを抽出し、`04_SN_BANNER` に表示
+4. `03_LP_LIST`（LPリスト）および `05_SN_TEXT`（広告文リスト）と突き合わせて、`06_SN_INPUT` で各種広告パターンを生成
+5. 関数で整形された出稿データを `07_SN_OUTPUT` に出力
+6. GAS（`exportCsvAndJpg.gs`）でCSVファイルを出力し、画像はZIP形式でまとめてダウンロード可能にする
 
 ---
 
