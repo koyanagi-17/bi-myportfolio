@@ -7,7 +7,7 @@
 
 ### テーマ：業務改善 × データ活用 × 可視化
 
-実務で直面した非効率なフローや集計作業の課題に対し、 **Google Apps Script・BigQuery・Looker Studioなどのツールを用いて「仕組み化・可視化・自動化」** を行った取り組みを再構成しています。  
+実務で直面した非効率なフローや集計作業の課題に対し、 **Google Apps Script (GAS)・BigQuery・Looker Studioなどのツールを用いて「仕組み化・可視化・自動化」** を行った取り組みを再構成しています。  
 定型業務や属人化しがちな作業を対象に、
 - 異なる媒体データの整形・統合
 - 手作業の削減を意識したフロー設計
@@ -24,7 +24,7 @@
 ITツールの活用や、**BigQuery・GASによる自動化**を自ら設計・運用してきた経験を活かし、**BIエンジニアとしてのキャリア構築を目指して活動中です。**
 
 - **業務領域**：広告運用、社内オペレーション設計、ITツール導入・保守、業務効率化支援
-- **使用経験のあるツール**：BigQuery / Looker Studio / GAS / GWS / Notion / 旧Google Analytics（実務利用）
+- **使用経験のあるツール**： Google スプレッドシート / BigQuery / Google Apps Script (GAS) / Google Workspace / Notion / Make / 旧Google Analytics（実務利用）
 
 ---
 
@@ -39,10 +39,10 @@ SQLやLooker Studioを独学・勉強会で学び、すぐに実務へ応用。�
 
 ---
 
-## 4. 使用技術・ツール
+## 4. 使用技術
 
 - **Google スプレッドシート**：手入力UI・集計表・進捗管理
-- **Google Apps Script**：定型業務の自動化（データ整形／ファイル出力／通知など）
+- **Google Apps Script (GAS)**：定型業務の自動化（データ整形／ファイル出力／通知など）
 - **BigQuery**：データの抽出・前処理・JOIN処理
 - **Looker Studio**：KPI可視化・ダッシュボード構築
 - **GitHub**：ポートフォリオの公開とソース管理
@@ -53,7 +53,7 @@ SQLやLooker Studioを独学・勉強会で学び、すぐに実務へ応用。�
 
 ### 1. 広告運用レポートの自動集計・分析
 
-**技術**：GAS / Google スプレッドシート / BigQuery  
+**技術**：Google Apps Script (GAS) / Google スプレッドシート / BigQuery  
 **目的**：広告レポート作成の工数・人的ミスを削減  
 **内容**：日別データを媒体横断で整形・集計し、統一フォーマットに出力。現場での運用を想定したカスタマイズ性の高い構造。  
 
@@ -65,7 +65,7 @@ SQLやLooker Studioを独学・勉強会で学び、すぐに実務へ応用。�
 
 ### 2. SmartNews広告 入稿CSV自動生成ツール
 
-**技術**：GAS / Google スプレッドシート / Googleドライブ  
+**技術**：Google Apps Script (GAS) / Google スプレッドシート / Googleドライブ  
 **目的**：入稿用ファイル作成業務の自動化  
 **内容**：スプレッドシート上の内容から、CSV・ZIPファイルを一括生成。画像ファイルやテキストの紐付けも管理可能。  
 
@@ -78,7 +78,7 @@ SQLやLooker Studioを独学・勉強会で学び、すぐに実務へ応用。�
 
 ### 3. 広告運用データを活用したダッシュボード可視化
 
-**技術**：GAS / Google スプレッドシート / BigQuery  
+**技術**：Google Apps Script (GAS) / Google スプレッドシート / BigQuery  
 **目的**：プロモーション成果の可視化と意思決定の支援  
 **内容**：CPA・CV・費用などをプロモーション／媒体別にグラフィカルに表示。手入力データとも連携し、運用しやすい設計に。  
 
@@ -88,9 +88,9 @@ SQLやLooker Studioを独学・勉強会で学び、すぐに実務へ応用。�
 
 | タイトル | 使用技術 | 概要 | リンク |
 |---|---|---|---|
-| 広告運用レポートの自動集計・分析 | GAS / スプレッドシート / BigQuery | 媒体ごとに異なるデータ形式を統一・自動整形。集計作業の工数とミスを削減。 | [閲覧する](project1_auto_report) |
-| SmartNews広告 入稿CSV自動生成ツール | GAS / スプレッドシート / Googleドライブ | スプレッドシートで広告内容を管理し、媒体指定のCSV＋ZIPを自動出力。 | [閲覧する](project2_smartnews_csv) |
-| 広告運用データのダッシュボード可視化 | GAS / スプレッドシート / BigQuery / Looker Studio | プロモーション別・媒体別の成果を見える化。状況把握と意思決定をサポート。 | [閲覧する](project3_dashboard_visualization) |
+| 広告運用レポートの自動集計・分析 | Google Apps Script (GAS) / Google スプレッドシート / BigQuery | 媒体ごとに異なるデータ形式を統一・自動整形。集計作業の工数とミスを削減。 | [閲覧する](project1_auto_report) |
+| SmartNews広告 入稿CSV自動生成ツール | Google Apps Script (GAS) / Google スプレッドシート / Googleドライブ | スプレッドシートで広告内容を管理し、媒体指定のCSV＋ZIPを自動出力。 | [閲覧する](project2_smartnews_csv) |
+| 広告運用データのダッシュボード可視化 | Google Apps Script (GAS) / Google スプレッドシート / BigQuery / Looker Studio | プロモーション別・媒体別の成果を見える化。状況把握と意思決定をサポート。 | [閲覧する](project3_dashboard_visualization) |
 
 
 ---
