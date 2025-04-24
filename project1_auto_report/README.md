@@ -1,4 +1,4 @@
-# 広告運用レポートの自動集計・分析（Google Apps Script（GAS） + Google スプレッドシート）
+# 広告運用レポートの自動集計・分析（Google Apps Script + Google スプレッドシート）
 
 ## 概要
 BigQueryから取得した広告データを商材別に自動集計し、  
@@ -8,7 +8,7 @@ BigQueryから取得した広告データを商材別に自動集計し、
 
 ## 目的・背景
 広告運用チームで毎月発生していた「成果データの集計」「月別レポートの更新作業」に多くの時間と手間がかかっていたため、  
-**ミスの防止・属人化の解消・作業負担の軽減**を目的に、Google スプレッドシート ＋ Google Apps Script（GAS） で作業を自動化しました。
+**ミスの防止・属人化の解消・作業負担の軽減**を目的に、Google スプレッドシート ＋ GAS で作業を自動化しました。
 
 BIツールではなくスプレッドシートを選定したのは、**非エンジニアのメンバーでも扱いやすく、柔軟に加工・共有ができる**ためです。
 
@@ -18,7 +18,7 @@ BIツールではなくスプレッドシートを選定したのは、**非エ�
 - `QUERY`＋`IMPORTRANGE`＋`ARRAYFORMULA` を活用し、スプレッドシート上で高速かつ柔軟な集計処理を実現
 - 特定の商材データのみを抽出・整形し、成果指標（CPA・CVR等）を自動算出
 - 手作業での入力・コピペミスを防止し、**正確性と再現性の高いレポート作成**が可能に
-- **ChatGPTを活用してGoogle Apps Script（GAS）コードを作成・改善**
+- **ChatGPTを活用してGASコードを作成・改善**
     - 作業内容を自然言語で整理し、AIによるコード生成をもとに実装
     - 手順明確化 → 実装 → テスト → 本番導入までを自走
 - **GASの時間トリガーにより、更新作業を全自動化**
@@ -42,7 +42,7 @@ BIツールではなくスプレッドシートを選定したのは、**非エ�
 
 ## 使用技術
 - Google スプレッドシート（QUERY, XLOOKUP, ARRAYFORMULA 等）
-- Google Apps Script（GAS）
+- Google Apps Script
   - ChatGPTでのコード補助あり
 - BigQuery（Google スプレッドシートのデータコネクタ経由）
 
@@ -61,7 +61,7 @@ BIツールではなくスプレッドシートを選定したのは、**非エ�
 
 ---
 
-## ファイル構成（Google Apps Script（GAS））
+## ファイル構成（GAS）
 
 | ファイル名 | 内容 |
 |------------|------|
@@ -73,11 +73,11 @@ BIツールではなくスプレッドシートを選定したのは、**非エ�
 | `copyFunctionCells.gs` | 月別集計タブの関数セルを更新 |
 | `getSheetName.gs` | INDEXタブに表示するシート名を取得 |
 | `MoveActiveSheet.gs` | シートの並び順を調整 |
-| `setFileNameToCell.gs` | スプレッドシートのファイル名をセルに表示 |
+| `setFileNameToCell.gs` | Google スプレッドシートのファイル名をセルに表示 |
 
 ---
 
 ## 実際の Google スプレッドシート  
 こちらから閲覧いただけます ↓
-- [広告レポート自動集計スプレッドシート（閲覧用）](https://docs.google.com/spreadsheets/d/1d1GF3-Cb-T35ocooElEliWLSJrUc1L1500kz25qQSRg/edit?gid=644686713#gid=644686713)
+- [広告レポート自動集計 Google スプレッドシート（閲覧用）](https://docs.google.com/spreadsheets/d/1d1GF3-Cb-T35ocooElEliWLSJrUc1L1500kz25qQSRg/edit?gid=644686713#gid=644686713)
 
