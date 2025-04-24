@@ -1,7 +1,7 @@
 # 広告運用レポートの自動集計・分析（Google Apps Script + Google スプレッドシート）
 
 ## 概要
-このツールは、BigQueryから取得した広告運用のデータを自動集計し、**定型レポート作成を効率化するGoogle スプレッドシート ＋ Google Apps Script（GAS） ツール**です。
+BigQueryから取得した広告運用のデータを自動で集計し、**定型レポート作成を効率化するGoogle スプレッドシート ＋ Google Apps Script（GAS） ツール**です。
 
 ---
 
