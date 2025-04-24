@@ -88,7 +88,7 @@ SmartNews広告への大量入稿には、**各クリエイティブごとに専
 
 ## 実際のGoogle スプレッドシート  
 
-- [SmartNews広告入稿CSV自動生成ツール（閲覧用）](https://docs.google.com/spreadsheets/d/1IgRgQu9y_3dHcsPGsxs1hUvc8_We5CCQus3Ji-sSiPk/edit?gid=968352328#gid=968352328)
+- [SmartNews広告入稿CSV自動生成ツール（閲覧用）](https://docs.google.com/spreadsheets/d/1IgRgQu9y_3dHcsPGsxs1hUvc8_We5CCQus3Ji-sSiPk)
 
 ---
 
