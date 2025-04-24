@@ -1,4 +1,4 @@
-# SmartNews広告入稿CSV自動生成ツール（Google Apps Script + Google スプレッドシート）
+# SmartNews広告入稿CSV自動生成ツール
 
 ## 概要
 SmartNews広告用の入稿データを**手動で作成していた手間を大幅に削減するツール**です。Google Apps Scriptを活用し、CSVファイルの自動生成を実現することで、データ入力ミスの削減と作業時間の短縮を達成します。
@@ -87,7 +87,7 @@ SmartNews広告への大量入稿には、**各クリエイティブごとに専
 ---
 
 ## 実際のGoogle スプレッドシート  
-こちらから閲覧いただけます ↓
+
 - [SmartNews広告入稿CSV自動生成ツール（閲覧用）](https://docs.google.com/spreadsheets/d/1IgRgQu9y_3dHcsPGsxs1hUvc8_We5CCQus3Ji-sSiPk/edit?gid=968352328#gid=968352328)
 
 ---
