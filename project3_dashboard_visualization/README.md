@@ -34,7 +34,7 @@ BigQuery やGoogle スプレッドシートに格納された広告データを�
 ## 使用技術
 - **BigQuery（スプレッドシートのデータコネクタ経由）**
 - **Google スプレッドシート**
-- **Google Apps Script（GAS）**
+- **Google Apps Script**
   - ChatGPTでのコード補助あり
 - **Google Looker Studio**
 
@@ -55,7 +55,7 @@ BigQuery やGoogle スプレッドシートに格納された広告データを�
 
 ---
 
-## ファイル構成（Google Apps Script（GAS））
+## ファイル構成（GAS）
 
 | ファイル名 | 内容 |
 |----------------------|------------------------------------------|
@@ -63,7 +63,7 @@ BigQuery やGoogle スプレッドシートに格納された広告データを�
 
 ---
 
-## 実際のスプレッドシート・ダッシュボードリンク
+## 実際のGoogle スプレッドシート・ダッシュボードリンク
 こちらから閲覧頂けます ↓
 - [スプレッドシート（サンプル）](リンクをここに挿入)
 - [Looker Studio ダッシュボード（閲覧）](https://lookerstudio.google.com/s/oaAPTnja_gA)
