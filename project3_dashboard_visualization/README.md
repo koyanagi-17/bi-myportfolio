@@ -61,7 +61,7 @@ ChatGPT（AI）によるコード補助を活用し、非エンジニアでも�
 
 | ファイル名 | 内容 |
 |----------------------|------------------------------------------|
-| `mergeCampaignDataFromURLs.gs` | データ統合処理（campaign_report + manual_input_sample を統合し、Looker Studio 連携用に整形） |
+| `mergeCampaignDataFromURLs.gs` | データ統合処理（`campaign_report` + `manual_input_sample` を統合し、Looker Studio 連携用に整形） |
 
 ---
 
