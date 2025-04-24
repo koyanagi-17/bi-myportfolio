@@ -69,3 +69,5 @@ ChatGPT（AI）によるコード補助を活用し、非エンジニアでも�
 
 - [Looker Studio ダッシュボード（閲覧用）](https://lookerstudio.google.com/s/oaAPTnja_gA)
 - [BigQueryより抽出した全広告データ（閲覧用）](https://docs.google.com/spreadsheets/d/1jVwHuKIRYZ4c2xTy48O6b-2bLQklpmPJ5-T4epUCFss)
+- [広告キャンペーン別手入力データ（MCV・CV・売上・粗利）（閲覧用）](https://docs.google.com/spreadsheets/d/1sXkrQnvFnpgZZ59Nj7ZZx31jHl2xG4sHTe-hNbiy4ho)
+- [Looker Studio 連携用統合整形データ（閲覧用）](https://docs.google.com/spreadsheets/d/1sXkrQnvFnpgZZ59Nj7ZZx31jHl2xG4sHTe-hNbiy4ho)
