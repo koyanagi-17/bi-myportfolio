@@ -66,6 +66,6 @@ ChatGPT（AI）によるコード補助を活用し、非エンジニアでも�
 ---
 
 ## 実際のGoogle スプレッドシート・ダッシュボードリンク
-こちらから閲覧頂けます ↓
-- [スプレッドシート（サンプル）](リンクをここに挿入)
+
 - [Looker Studio ダッシュボード（閲覧用）](https://lookerstudio.google.com/s/oaAPTnja_gA)
+- [BigQueryより抽出した全広告データ（閲覧用）](https://docs.google.com/spreadsheets/d/1jVwHuKIRYZ4c2xTy48O6b-2bLQklpmPJ5-T4epUCFss)
