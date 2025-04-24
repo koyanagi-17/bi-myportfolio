@@ -79,5 +79,5 @@ BIツールではなくスプレッドシートを選定したのは、**非エ�
 
 ## 実際の Google スプレッドシート  
 こちらから閲覧いただけます ↓
-- [広告レポート自動集計 Google スプレッドシート（閲覧用）](https://docs.google.com/spreadsheets/d/1d1GF3-Cb-T35ocooElEliWLSJrUc1L1500kz25qQSRg/edit?gid=644686713#gid=644686713)
+- [広告レポート自動集計・分析（閲覧用）](https://docs.google.com/spreadsheets/d/1d1GF3-Cb-T35ocooElEliWLSJrUc1L1500kz25qQSRg/edit?gid=644686713#gid=644686713)
 
