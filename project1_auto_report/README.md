@@ -39,7 +39,7 @@ BIツールではなくスプレッドシートを選定したのは、**非エ�
 ---
 
 ## 使用技術
-- Google スプレッドシート（QUERY, XLOOKUP, ARRAYFORMULA 等）
+- Google スプレッドシート（`QUERY`, `XLOOKUP`, `ARRAYFORMULA` 等）
 - Google Apps Script  
 ChatGPT（AI）によるコード補助を活用し、非エンジニアでも高度な処理を実現
 - BigQuery（Google スプレッドシートのデータコネクタ経由）
@@ -78,4 +78,4 @@ ChatGPT（AI）によるコード補助を活用し、非エンジニアでも�
 ## 実際の Google スプレッドシート  
 
 - [広告レポート自動集計・分析（閲覧用）](https://docs.google.com/spreadsheets/d/1d1GF3-Cb-T35ocooElEliWLSJrUc1L1500kz25qQSRg)
-
+- [BigQueryより抽出した全広告データ（閲覧用）](https://docs.google.com/spreadsheets/d/1jVwHuKIRYZ4c2xTy48O6b-2bLQklpmPJ5-T4epUCFss)
