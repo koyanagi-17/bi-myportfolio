@@ -37,7 +37,7 @@
 - **BigQuery（スプレッドシートのデータコネクタ経由）**
 - **Google スプレッドシート**
 - **Google Apps Script**
-  - ChatGPTでのコード補助あり
+  - ChatGPT（AI）によるコード補助を活用し、非エンジニアでも高度な処理を実現
 - **Google Looker Studio**
 
 ---
