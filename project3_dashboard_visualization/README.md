@@ -36,8 +36,8 @@
 ## 使用技術
 - **BigQuery（スプレッドシートのデータコネクタ経由）**
 - **Google スプレッドシート**
-- **Google Apps Script**
-  - ChatGPT（AI）によるコード補助を活用し、非エンジニアでも高度な処理を実現
+- **Google Apps Script**  
+ChatGPT（AI）によるコード補助を活用し、非エンジニアでも高度な処理を実現
 - **Google Looker Studio**
 
 ---
